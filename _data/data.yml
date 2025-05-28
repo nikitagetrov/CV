@@ -53,16 +53,9 @@ bio: |
   - Database
 
 experience:
-  - role: Freelancer
-    time: 2022-2025
-    company: UpWork
-    link:
-    details: Pet projects development and code improvement
-    details-list: ""
-
   - role: Frontend Developer
     time: 2022-2025
-    company: (Personal projects)
+    company: NDA
     link:
     details: ""
     details-list:
