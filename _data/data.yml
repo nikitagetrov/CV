@@ -16,11 +16,13 @@ contact:
 
 hardskills:
   skill:
-    - JavaScript, TypeScript, HTML, CSS, React, Next.js
-    - Three.js, BEM, Frontend, Cross-browser compatibility
-    - C#, .NET Core, OOP, SOLID
-    - Git, Node.js, REST API, JSON API
+    - React, Next.js, HTML, CSS,
+    - JavaScript, TypeScript, Node.js, 
+    - C#, .NET Core, Three.js 
+    - OOP, SOLID, Frontend, BEM, Cross-browser compatibility
+    - REST API, JSON API, Backend
     - MySQL, PostgreSQL
+    - Git, Github, Gitlab 
 
 softskills:
   skill:
@@ -41,7 +43,7 @@ languages:
 education:
   - degree:
     time: 2014
-    university: Goshior
+    university: Goshior (Olympic reserve sports school)
 
 bio: |
   Looking for a Frontend Developer position. 
