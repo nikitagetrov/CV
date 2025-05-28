@@ -16,12 +16,12 @@ contact:
 
 hardskills:
   skill:
-    - React, Next.js, HTML, CSS,
-    - JavaScript, TypeScript, Node.js, 
-    - C#, .NET Core, Three.js 
-    - OOP, SOLID, Frontend, BEM, Cross-browser compatibility
-    - REST API, JSON API, Backend
-    - MySQL, PostgreSQL
+    - Frontend, React, Next.js, HTML, Three.js 
+    - CSS, Cross-browser compatibility, BEM
+    - Backend, REST API, JSON API, SOLID, OOP 
+    - JavaScript, TypeScript, NodeJS
+    - C#, .NET Core, Unity
+    - MySQL, PostgreSQL, SQLite
     - Git, Github, Gitlab 
 
 softskills:
