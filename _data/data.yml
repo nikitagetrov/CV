@@ -48,9 +48,9 @@ education:
 bio: |
   Looking for a Frontend Developer position. 
   I have 3 years in :
-  - Frontend, Js, React
+  - Frontend, JS, React
   - Unity/C# game development
-  - Database
+  - Database, backend
 
 experience:
   - role: Fullstack Developer
@@ -59,11 +59,14 @@ experience:
     link:
     details: ""
     details-list:
-      - "Developed a one-page website with 3D effects (https://github.com/nikitagetrov/3d-site)"
-      - "Created a 360° apartment viewing website (https://github.com/nikitagetrov/3-6-0-panarama)"
-      - "Designed various web pages with random interactive effects"
-      - "Experience with React and practical application of this framework"
-      - "Unity game development using C#"
-
-
-
+      - Versatile full-stack software engineer with 3 years of hands-on experience building modern web applications and interactive games. 
+      - Specialized in React ecosystem development, delivering responsive user interfaces with Next.js and implementing complex frontend logic using JavaScript and TypeScript. 
+      - Proficient in creating immersive 3D experiences through Three.js integration and maintaining cross-browser compatibility using BEM methodology.
+      - Strong backend development foundation with expertise in REST and JSON API design following SOLID principles and object-oriented programming practices. 
+      - Experienced in C# and .NET Core development, with significant Unity game development experience creating interactive applications and game mechanics. 
+      - Database proficiency spans MySQL, PostgreSQL, and SQLite with focus on performance optimization and data modeling.
+      - Demonstrated ability to work across the full development stack, from database design and backend API development to frontend implementation and deployment. 
+      - Experienced with modern development workflows using Git version control across GitHub and GitLab platforms. 
+      - Combines technical expertise with practical problem-solving skills to deliver scalable, maintainable solutions in fast-paced development environments.
+      - Key strengths include rapid prototyping, code optimization, and adapting to emerging technologies while maintaining high code quality standards. 
+      - Proven track record of collaborating effectively in team environments and delivering projects from conception to production deployment.
