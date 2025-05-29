@@ -55,7 +55,7 @@ bio: |
 experience:
   - role: Fullstack Developer
     time: 2022-2025
-    company: NDA
+    company: NDA-company
     link:
     details-list:
       - Developed 15+ responsive web applications using React and Next.js, achieving average load times under 2.3 seconds through code splitting and lazy loading optimization
