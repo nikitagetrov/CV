@@ -57,7 +57,6 @@ experience:
     time: 2022-2025
     company: NDA
     link:
-    details: "Full-Stack Development"
     details-list:
       - Developed 15+ responsive web applications using React and Next.js, achieving average load times under 2.3 seconds through code splitting and lazy loading optimization
       - Improved existing application performance by 23% through React component optimization and state management restructuring
