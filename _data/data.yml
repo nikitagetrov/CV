@@ -58,23 +58,10 @@ experience:
     company: NDA-company
     link:
     details-list:
-      - Developed 15+ responsive web applications using React and Next.js, achieving average load times under 2.3 seconds through code splitting and lazy loading optimization
-      - Improved existing application performance by 23% through React component optimization and state management restructuring
-      - Built RESTful APIs serving 10,000+ daily requests with 99.7% uptime using Node.js and .NET Core
-      - Implemented TypeScript across 8 major projects, reducing runtime errors by 34% and improving code maintainability 
-      - Created 12 interactive Three.js applications with WebGL rendering, supporting 60fps performance on devices with 2GB+ RAM
-      - Achieved 98% cross-browser compatibility across Chrome, Firefox, Safari, and Edge for all delivered projects
-      - Reduced CSS bundle sizes by 28% using BEM methodology and modular architecture
-      - Converted 6 legacy jQuery applications to modern React, improving bundle size by 45% and load speed by 31%
-      - Shipped 4 complete Unity games with C# scripting, including 2D platformers and 3D puzzle games
-      - Optimized game performance achieving stable 60fps on mobile devices with 3GB RAM
-      - Implemented multiplayer networking for 2 projects supporting up to 8 concurrent players
-      - Reduced build times by 22% through asset optimization and build pipeline improvements
-      - Designed and maintained PostgreSQL databases handling 50,000+ records with query response times under 100ms
-      - Migrated legacy MySQL systems to PostgreSQL, improving query performance by 19%
-      - Built SQLite solutions for mobile applications supporting offline data synchronization for 1,000+ users
-      - Implemented database indexing strategies reducing complex query execution time by 41%
-      - Managed 25+ repositories across GitHub and GitLab with consistent branching strategies and CI/CD pipelines
-      - Maintained 95%+ code coverage through automated testing suites across all major projects
-      - Reduced deployment time from 15 minutes to 4 minutes through automated build optimization
-      - Collaborated with 8-person development teams using agile methodologies with 2-week sprint cycles.
+      - Developed 7+ responsive web applications using React and Next.js with optimized loading and solid performance.
+      - Improved component structure and state management, enhancing app responsiveness and simplifying maintenance.
+      - Built REST APIs with Node.js and .NET Core, handling consistent production traffic.
+      - Introduced TypeScript into existing projects, reducing runtime errors and improving code clarity.
+      - Migrated several legacy jQuery applications to React, reducing bundle size and improving load speed.
+      - Designed and released several small Unity games (2D/3D), focusing on performance and mobile optimization.
+      - Set up CI/CD pipelines to accelerate deployment and automate builds.
