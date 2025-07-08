@@ -20,9 +20,11 @@ hardskills:
     - CSS, Cross-browser compatibility, BEM
     - Backend, REST API, JSON API, SOLID, OOP 
     - JavaScript, TypeScript, NodeJS
+    - Proxmox, Hyper-V
     - C#, .NET Core, Unity
     - MySQL, PostgreSQL, SQLite
     - Git, Github, Gitlab 
+    - N8N, Ollama
 
 softskills:
   skill:
