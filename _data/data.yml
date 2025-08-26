@@ -23,9 +23,9 @@ hardskills:
     - JavaScript, TypeScript, NodeJS
     - Proxmox, Hyper-V
     - C#, .NET Core, Unity
-    - MySQL, PostgreSQL, SQLite
+    - MySQL, PostgreSQL, SQLite, MongoDB
     - Git, Github, Gitlab 
-    - N8N, Ollama
+    - N8N, Ollama, Vector Database
 
 softskills:
   skill:
