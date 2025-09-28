@@ -1,5 +1,4 @@
 name: Nikita Getrov
-
 contact:
   github: nikitagetrov
   telegram: nikitagetrov
@@ -14,7 +13,6 @@ contact:
   print: Print this page
 #        - Location: UTC +3
 #  - Willing to relocate or travel
-
 hardskills:
   skill:
     - N8N, Workflow Automation, Low-code/No-code
@@ -27,7 +25,6 @@ hardskills:
     - Data Transformation, JSON, XML, CSV Processing
     - Monitoring, Logging, Error Handling, Debugging
     - Git, Version Control, CI/CD for Workflows
-
 softskills:
   skill:
     - Team player
@@ -37,38 +34,33 @@ softskills:
     - Self-directed problem solving
     - Effective use of search engines and AI tools
     - Master Of Sports in cycling
-
 languages:
   - idiom: English - B1
   - idiom: Spanish - A2
   - idiom: Chuvash - Native
   - idiom: Russian - Native
-
 education:
   - degree:
     time: 2014
     university: Goshior (Olympic reserve sports school)
-
 bio: |
   Looking for an Automation Engineer / N8N Developer position. 
-  I have 3 years in :
+  I have 1.5 years in :
   - Workflow Automation, N8N, Low-code Solutions
   - API Integration, Data Processing, AI Workflows
   - Backend Development, Database Management
-
 experience:
   - role: Automation Engineer / N8N Developer
-    time: 2022-2025
+    time: 2023-2025
     company: NDA-company
     link:
     details-list:
-      - Designed and deployed 15+ complex N8N workflows automating business processes, reducing manual work by 80%.
-      - Built advanced API integrations connecting 20+ services including CRMs, databases, and AI platforms.
-      - Developed custom N8N nodes using JavaScript/TypeScript for specialized business logic and data transformations.
-      - Implemented AI-powered workflows with OpenAI, Anthropic, and local LLMs, creating intelligent automation solutions.
-      - Architected scalable N8N infrastructure using Docker, handling 10k+ workflow executions daily with 99.9% uptime.
-      - Created comprehensive error handling, monitoring, and alerting systems for mission-critical automation workflows.
-      - Optimized workflow performance reducing execution time by 60% through efficient data processing and caching strategies.
-      - Built robust data pipelines processing millions of records with real-time synchronization across multiple platforms.
-      - Implemented advanced security measures including OAuth, API key management, and encrypted data handling.
-   
+      - Designed and deployed 8+ N8N workflows automating key business processes, reducing manual work by 60%.
+      - Built API integrations connecting 10+ services including CRMs, payment systems, and cloud platforms.
+      - Developed custom JavaScript functions for data transformation and complex business logic implementation.
+      - Implemented AI-powered workflows using OpenAI and Ollama APIs for content processing and analysis.
+      - Set up self-hosted N8N infrastructure using Docker, ensuring reliable 24/7 workflow execution.
+      - Created monitoring and error handling systems for automated workflows with email/Telegram notifications.
+      - Optimized workflow performance through efficient data processing and proper queue management.
+      - Built data synchronization pipelines between databases and external APIs with real-time updates.
+      - Implemented secure authentication flows using OAuth and API key management best practices.
