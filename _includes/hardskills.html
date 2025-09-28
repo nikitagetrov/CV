@@ -1,13 +1,27 @@
-{% assign hardskills = site.data.data.hardskills %}
-{% if hardskills %}
+{% assign hardskills_en = site.data.data.en.hardskills %}
+{% assign hardskills_ru = site.data.data.ru.hardskills %}
+{% if hardskills_en or hardskills_ru %}
 <section class="skills">
-    <div class="title">Hard skills</div>
-    <ul class="skill-list">
-        {% for skill in hardskills.skill%}
-        <li>
-            <div class="skill">{{skill}}</div>
-        </li>
-        {% endfor %}
-    </ul>
+    <div class="title" data-en="Hard skills" data-ru="Технические навыки">Hard skills</div>
+
+    <div class="lang-content" data-lang="en">
+        <ul class="skill-list">
+            {% for skill in hardskills_en.skill%}
+            <li>
+                <div class="skill">{{skill}}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="lang-content" data-lang="ru" style="display: none;">
+        <ul class="skill-list">
+            {% for skill in hardskills_ru.skill%}
+            <li>
+                <div class="skill">{{skill}}</div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
 </section>
 {% endif %}

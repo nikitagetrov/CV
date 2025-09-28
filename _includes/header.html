@@ -1,4 +1,10 @@
 <div class="header">
   <h1 class="title">{{site.data.data.name}}</h1>
-  <label for="switch"><i id="moon" data-feather="sun" fill="var(--fg-color-dark)"></i></label>
+  <div class="header-controls">
+    <div class="language-switcher">
+      <button id="lang-en" class="lang-btn" onclick="switchLanguage('en')">EN</button>
+      <button id="lang-ru" class="lang-btn" onclick="switchLanguage('ru')">RU</button>
+    </div>
+    <label for="switch"><i id="moon" data-feather="sun" fill="var(--fg-color-dark)"></i></label>
+  </div>
 </div>

@@ -1,7 +1,12 @@
-{% assign bio = site.data.data.bio %}
-{% if bio %}
+{% assign current_lang = site.default_lang %}
+{% assign bio_en = site.data.data.en.bio %}
+{% assign bio_ru = site.data.data.ru.bio %}
+{% if bio_en or bio_ru %}
 <section class="bio">
-    <h2 class="title">Bio</h2>
-    <div class="details">{{ bio | newline_to_br }}</div>
+    <h2 class="title" data-en="Bio" data-ru="Биография">Bio</h2>
+    <div class="details">
+        <div class="lang-content" data-lang="en">{{ bio_en | newline_to_br }}</div>
+        <div class="lang-content" data-lang="ru" style="display: none;">{{ bio_ru | newline_to_br }}</div>
+    </div>
 </section>
 {% endif %}

@@ -1,3 +1,4 @@
+# Common data
 name: Nikita Getrov
 contact:
   github: nikitagetrov
@@ -10,69 +11,114 @@ contact:
   download:
   online: https://nikitagetrov.github.io/CV
   fork: https://github.com/nikitagetrov/CV
-  print: Print this page
-#        - Location: UTC +3
-#  - Willing to relocate or travel
-hardskills:
-  skill:
-    - N8N, Workflow Automation, Low-code/No-code
-    - REST API, GraphQL, Webhooks, API Integration
-    - JavaScript, TypeScript, Custom Functions
-    - Docker, Self-hosting, Cloud Deployment
-    - OAuth, API Authentication, Security
-    - Database Connectors, SQL, NoSQL Integration
-    - AI/ML APIs, OpenAI, Anthropic, Ollama
-    - Data Transformation, JSON, XML, CSV Processing
-    - Monitoring, Logging, Error Handling, Debugging
-    - Git, Version Control, CI/CD for Workflows
-softskills:
-  skill:
-    - Team player
-    - Communication skills
-    - Stress resistance
-    - Ability to work under pressure
-    - Self-directed problem solving
-    - Effective use of search engines and AI tools
-    - Master Of Sports in cycling
-languages:
-  - idiom: English - B1
-  - idiom: Spanish - A2
-  - idiom: Chuvash - Native
-  - idiom: Russian - Native
-education:
-  - degree:
-    time: 2014
-    university: Goshior (Olympic reserve sports school)
-bio: |
-  Looking for an Automation Engineer / N8N Developer position. 
-  I have 1.5 years in :
-  - Workflow Automation, N8N, Low-code Solutions
-  - API Integration, Data Processing, AI Workflows
-  - Backend Development, Database Management
-# Existing config...
-baseurl: "/CV"
-url: "https://nikitagetrov.github.io"
+  print:
+    en: "Print this page"
+    ru: "Распечатать эту страницу"
 
-# Language settings
-languages: ["en", "ru"]
-default_lang: "en"
+# English content
+en:
+  hardskills:
+    skill:
+      - N8N, Workflow Automation, Low-code/No-code
+      - REST API, GraphQL, Webhooks, API Integration
+      - JavaScript, TypeScript, Custom Functions
+      - Docker, Self-hosting, Cloud Deployment
+      - OAuth, API Authentication, Security
+      - Database Connectors, SQL, NoSQL Integration
+      - AI/ML APIs, OpenAI, Anthropic, Ollama
+      - Data Transformation, JSON, XML, CSV Processing
+      - Monitoring, Logging, Error Handling, Debugging
+      - Git, Version Control, CI/CD for Workflows
+  softskills:
+    skill:
+      - Team player
+      - Communication skills
+      - Stress resistance
+      - Ability to work under pressure
+      - Self-directed problem solving
+      - Effective use of search engines and AI tools
+      - Master Of Sports in cycling
+  languages:
+    - idiom: English - B1
+    - idiom: Spanish - A2
+    - idiom: Chuvash - Native
+    - idiom: Russian - Native
+  education:
+    - degree:
+      time: 2014
+      university: Goshior (Olympic reserve sports school)
+  bio: |
+    Looking for an Automation Engineer / N8N Developer position.
+    I have 1.5 years in :
+    - Workflow Automation, N8N, Low-code Solutions
+    - API Integration, Data Processing, AI Workflows
+    - Backend Development, Database Management
+  experience:
+    - role: Automation Engineer / N8N Developer
+      time: 2023-2025
+      company: NDA-company
+      link:
+      details-list:
+        - Designed and deployed 8+ N8N workflows automating key business processes, reducing manual work by 60%.
+        - Built API integrations connecting 10+ services including CRMs, payment systems, and cloud platforms.
+        - Developed custom JavaScript functions for data transformation and complex business logic implementation.
+        - Implemented AI-powered workflows using OpenAI and Ollama APIs for content processing and analysis.
+        - Set up self-hosted N8N infrastructure using Docker, ensuring reliable 24/7 workflow execution.
+        - Created monitoring and error handling systems for automated workflows with email/Telegram notifications.
+        - Optimized workflow performance through efficient data processing and proper queue management.
+        - Built data synchronization pipelines between databases and external APIs with real-time updates.
+        - Implemented secure authentication flows using OAuth and API key management best practices.
 
-# Language names
-language_names:
-  en: "English"
-  ru: "Русский"
-experience:
-  - role: Automation Engineer / N8N Developer
-    time: 2023-2025
-    company: NDA-company
-    link:
-    details-list:
-      - Designed and deployed 8+ N8N workflows automating key business processes, reducing manual work by 60%.
-      - Built API integrations connecting 10+ services including CRMs, payment systems, and cloud platforms.
-      - Developed custom JavaScript functions for data transformation and complex business logic implementation.
-      - Implemented AI-powered workflows using OpenAI and Ollama APIs for content processing and analysis.
-      - Set up self-hosted N8N infrastructure using Docker, ensuring reliable 24/7 workflow execution.
-      - Created monitoring and error handling systems for automated workflows with email/Telegram notifications.
-      - Optimized workflow performance through efficient data processing and proper queue management.
-      - Built data synchronization pipelines between databases and external APIs with real-time updates.
-      - Implemented secure authentication flows using OAuth and API key management best practices.
+# Russian content
+ru:
+  hardskills:
+    skill:
+      - N8N, Автоматизация рабочих процессов, Low-code/No-code
+      - REST API, GraphQL, Вебхуки, Интеграция API
+      - JavaScript, TypeScript, Пользовательские функции
+      - Docker, Самостоятельный хостинг, Развертывание в облаке
+      - OAuth, API аутентификация, Безопасность
+      - Коннекторы баз данных, SQL, NoSQL интеграция
+      - AI/ML API, OpenAI, Anthropic, Ollama
+      - Преобразование данных, JSON, XML, CSV обработка
+      - Мониторинг, Логирование, Обработка ошибок, Отладка
+      - Git, Контроль версий, CI/CD для рабочих процессов
+  softskills:
+    skill:
+      - Командный игрок
+      - Коммуникативные навыки
+      - Стрессоустойчивость
+      - Способность работать под давлением
+      - Самостоятельное решение проблем
+      - Эффективное использование поисковых систем и AI инструментов
+      - Мастер спорта по велоспорту
+  languages:
+    - idiom: Английский - B1
+    - idiom: Испанский - A2
+    - idiom: Чувашский - Родной
+    - idiom: Русский - Родной
+  education:
+    - degree:
+      time: 2014
+      university: Гошиор (Училище олимпийского резерва)
+  bio: |
+    Ищу позицию Инженера по автоматизации / N8N разработчика.
+    У меня 1.5 года опыта в:
+    - Автоматизация рабочих процессов, N8N, Low-code решения
+    - Интеграция API, обработка данных, AI рабочие процессы
+    - Backend разработка, управление базами данных
+  experience:
+    - role: Инженер по автоматизации / N8N разработчик
+      time: 2023-2025
+      company: NDA-компания
+      link:
+      details-list:
+        - Разработал и развернул 8+ N8N рабочих процессов, автоматизирующих ключевые бизнес-процессы, сократив ручную работу на 60%.
+        - Построил API интеграции, соединяющие 10+ сервисов, включая CRM, платежные системы и облачные платформы.
+        - Разработал пользовательские JavaScript функции для преобразования данных и реализации сложной бизнес-логики.
+        - Реализовал AI-управляемые рабочие процессы с использованием OpenAI и Ollama API для обработки и анализа контента.
+        - Настроил самостоятельно размещенную N8N инфраструктуру с использованием Docker, обеспечив надежное 24/7 выполнение рабочих процессов.
+        - Создал системы мониторинга и обработки ошибок для автоматизированных рабочих процессов с уведомлениями по email/Telegram.
+        - Оптимизировал производительность рабочих процессов через эффективную обработку данных и правильное управление очередями.
+        - Построил конвейеры синхронизации данных между базами данных и внешними API с обновлениями в реальном времени.
+        - Реализовал безопасные потоки аутентификации с использованием OAuth и лучших практик управления API ключами.

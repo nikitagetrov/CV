@@ -4,6 +4,15 @@ url: https://nikitagetrov.github.io/CV/
 baseurl: ""
 theme_skin: blue
 
+# Language settings
+languages: ["en", "ru"]
+default_lang: "en"
+
+# Language names
+language_names:
+  en: "English"
+  ru: "Русский"
+
 sass:
   sass_dir: _sass
   style: compressed

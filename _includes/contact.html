@@ -1,7 +1,7 @@
 {% assign contact = site.data.data.contact %}
 {% if contact %}
 <section class="contact">
-    <div class="title">Contact</div>
+    <div class="title" data-en="Contact" data-ru="Контакты">Contact</div>
     <div class="contact-grid">
     <div class="left-column">
 
@@ -47,8 +47,8 @@
     {% if contact.download %}
     <div class="contact-item">
         <i data-feather="download"></i>
-        <a class="save" href="{{contact.download}}" download  data-tooltip="Or just press Ctrl+S">
-            Download this CV as a file
+        <a class="save" href="{{contact.download}}" download data-tooltip="Or just press Ctrl+S">
+            <span data-en="Download this CV as a file" data-ru="Скачать CV как файл">Download this CV as a file</span>
         </a>
     </div>
     {% endif %}
@@ -57,7 +57,7 @@
     <div class="contact-item">
         <i data-feather="link"></i>
         <a href="{{contact.online}}">
-            This CV online: {{contact.online}}
+            <span data-en="This CV online:" data-ru="CV онлайн:">This CV online:</span> {{contact.online}}
         </a>
     </div>
     {% endif %}
@@ -66,7 +66,7 @@
     <div class="contact-item">
         <i data-feather="copy"></i>
         <a href="{{contact.fork}}">
-            Fork this CV
+            <span data-en="Fork this CV" data-ru="Форкнуть это CV">Fork this CV</span>
         </a>
     </div>
     {% endif %}

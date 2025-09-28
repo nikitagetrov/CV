@@ -1,21 +1,74 @@
 .header {
     width: 90%;
     margin: 0 auto;
-    display: block; /* Changed from flex to block for single column layout */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
     .title {
         color: var(--fg-color-dark);
         font-weight: bolder;
-        margin: 0 auto; /* Center the title */
+        margin: 0;
+        flex: 1;
     }
+
+    .header-controls {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .language-switcher {
+        display: flex;
+        gap: 5px;
+
+        .lang-btn {
+            background: var(--accent-color);
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+
+            &:hover {
+                background: var(--accent-color-hover);
+                transform: translateY(-1px);
+            }
+
+            &.active {
+                background: var(--fg-color-dark);
+                box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            }
+        }
+    }
+
     input[type="checkbox"] {
         width: 0;
         height: 0;
         display: none;
     }
-    
+
     label {
         cursor: pointer;
         color: var(--fg-color-dark);
-        display: none; /* Hide labels as they're not needed */
+        display: block;
+    }
+
+    @media (max-width: 600px) {
+        flex-direction: column;
+        gap: 10px;
+
+        .title {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .header-controls {
+            justify-content: center;
+        }
     }
 }

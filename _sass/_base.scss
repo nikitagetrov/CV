@@ -81,3 +81,16 @@ li::marker {
     visibility: visible;
     opacity: 1;
 }
+
+/* Language switcher styles */
+.lang-content {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.lang-content[style*="display: none"] {
+    opacity: 0;
+}
+
+.lang-content:not([style*="display: none"]) {
+    opacity: 1;
+}
