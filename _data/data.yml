@@ -49,6 +49,18 @@ bio: |
   - Workflow Automation, N8N, Low-code Solutions
   - API Integration, Data Processing, AI Workflows
   - Backend Development, Database Management
+# Existing config...
+baseurl: "/CV"
+url: "https://nikitagetrov.github.io"
+
+# Language settings
+languages: ["en", "ru"]
+default_lang: "en"
+
+# Language names
+language_names:
+  en: "English"
+  ru: "Русский"
 experience:
   - role: Automation Engineer / N8N Developer
     time: 2023-2025
