@@ -62,11 +62,11 @@
     </div>
     {% endif %}
 
-    {% if contact.fork %}
+    {% if contact.print %}
     <div class="contact-item">
-        <i data-feather="copy"></i>
-        <a href="{{contact.fork}}">
-            <span data-en="Fork this CV" data-ru="Форкнуть это CV">Fork this CV</span>
+        <i data-feather="printer"></i>
+        <a href="javascript:window.print()" data-tooltip="Or just press Ctrl+P">
+            <span data-en="{{contact.print.en}}" data-ru="{{contact.print.ru}}">{{contact.print.en}}</span>
         </a>
     </div>
     {% endif %}
